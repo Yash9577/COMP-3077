@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+    <title>Land Of Boxes Order Form</title>
+
+    </head>
+
+<body>
+
+    <h1 style="color:orange">Land Of Boxes Order Form</h1>
+
+        <form method="post" action="#">
+
+<table>
+
+<tr>
+
+    <td align="right">Name:</td>
+
+        <td><input type="text" name="name" SIZE="35"></td>
+
+</tr>
+
+<tr>
+
+    <td align="right">Email:</td>
+
+    <td><input type="text" name="email" size="35" value=""></td>
+
+</tr>
+
+<tr>
+
+    <td align="right">Address:</td>
+
+    <td><textarea name="address" COLS="30" rows="5"></textarea></td>
+
+</tr>
+
+<tr>
+
+    <td align="right">Postcode:</td>
+
+    <td><input type="text" name="postcode" size="20"></td>
+
+</tr>
+
+</table><br><br>
+
+<table border=1>
+
+<tr>
+
+    <td><b>Product</b></td>
+
+    <td><b>Part Number</b></td>
+
+    <td><b>Quantity</b></td>
+
+    <td><b>Unit Price</b></td>
+
+    <td><b>Subtotal</b></td>
+
+</tr>
+
+<tr>
+
+    <td>EconoBox</td>
+
+    <td>LB100</td>
+
+    <td><input type="text" name="Qlb100" size="8"></td>
+
+<td>R5</td>
+
+<td><input type="text" name="Sublb100" size="15" value="R"></td>
+
+</tr>
+
+<tr>
+
+    <td>Standard Box</td>
+
+    <td>LB200</td>
+
+    <td><input type="text" name="Qlb200" size="8"></td>
+
+<td>R10</td>
+
+    <td><input type="text" name="Sublb200" size="15" value="R"></td>
+
+</tr>
+
+    <tr>
+
+        <td>Premium Box</td>
+
+            <td>LB300</td>
+
+            <td><input type="text" name="Qlb300" size="8"></td>
+
+        <td>R15</td>
+
+        <td><input type="text" name="Sublb300" size="15" value="R"></td>
+
+</tr>
+
+<tr>
+
+<td>Deluxe Box</td>
+
+<td>LB400</td>
+
+<td><input type="text" name="Qlb400" size="8"></td>
+
+<td>R20</td>
+
+<td><input type="text" name="Sublb400" size="15" value="R"></td>
+
+</tr>
+
+<tr>
+
+    <td>Super Deluxe Box</td>
+
+    <td>LB500</td>
+
+    <td><input type="text" name="Qlb500" size="8"></td>
+
+    <td>R30</td>
+
+        <td><input type="text" name="Sublb500" size="15" value="R"></td>
+
+</tr>
+
+<tr>
+
+        <td COLSPAN=5 align="right">
+
+            Total: <input type="text" name="total" size="15" value="R"></td>
+
+</tr>
+
+</table><br><br>
+
+    <b>Credit Card Details</b><br>
+
+<table>
+
+<tr>
+
+    <td>Card type:</td>
+
+</tr>
+
+<tr>
+
+    <td><input type="radio" name="cardmake" value="master">Mastercard</td>
+
+    <td>Card Number:</td>
+
+    <td><input type="text" name="cardnumber" size="20"></td>
+
+</tr>
+
+    <tr>
+
+        <td><input type="radio" name="cardmake" value="visa">Visa</td>
+
+        <td>Expiry date:</td>
+
+        <td><input type="text" name="expiry" size="10" maxlength="5" value="mm/yy"></td </tr>
+
+<tr>
+
+        <td><input type="radio" name="cardmake" value="amex">American
+
+        Express</td>
+
+</tr>
+
+<tr>
+
+        <td><input type="radio" name="cardmake" value="diners">Diners
+
+        Club</td>
+
+</tr>
+
+</table><br><br>
+
+<table>
+
+<tr>
+
+        <td align="right"><b>Delivery Address:</b></td>
+
+        <td><textarea NAME="delivery" COLS="25" ROWS="5"></textarea></td>
+
+</tr>
+
+</table><br><br>
+
+        <input type="submit" name="submit" value="Send order">
+
+        <input type="reset" name="reset" value="Clear form">
+
+</form>
+
+</body>
+
+</html>

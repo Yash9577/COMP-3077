@@ -1,0 +1,4 @@
+https://goswamiy.myweb.cs.uwindsor.ca/RegistrationPage.html
+https://goswamiy.myweb.cs.uwindsor.ca/fetchName.php
+https://goswamiy.myweb.cs.uwindsor.ca/fetchCountry.php
+https://goswamiy.myweb.cs.uwindsor.ca/fetchGender.php
